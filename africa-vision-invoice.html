@@ -33,9 +33,14 @@
         border: 1px solid #ddd;
         padding: 10px;
         text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       th {
         background-color: #f2f2f2;
+      }
+      td.price {
+        white-space: nowrap; /* Empêche les retours à la ligne pour les prix */
       }
       .total {
         font-weight: bold;
@@ -97,75 +102,75 @@
       </tr>
       <tr>
         <td>Conception et Design</td>
-        <td>500 €</td>
-        <td>327 979 XOF</td>
+        <td class="price">500 €</td>
+        <td class="price">327 979 XOF</td>
         <td>1</td>
-        <td>500 €</td>
-        <td>327 979 XOF</td>
+        <td class="price">500 €</td>
+        <td class="price">327 979 XOF</td>
       </tr>
       <tr>
         <td>Développement frontend (Next.js, Tailwind CSS, Shadcn UI)</td>
-        <td>1500 €</td>
-        <td>983 936 XOF</td>
+        <td class="price">1200 €</td>
+        <td class="price">789 148 XOF</td>
         <td>1</td>
-        <td>1500 €</td>
-        <td>983 936 XOF</td>
+        <td class="price">1200 €</td>
+        <td class="price">789 148 XOF</td>
       </tr>
       <tr>
         <td>
-          Intégration de contenu et création de pages (7 principales +
-          sous-pages)
+          Intégration de contenu et création de pages (14 pages : 7 principales
+          + 7 sous-pages)
         </td>
-        <td>400 €</td>
-        <td>262 383 XOF</td>
+        <td class="price">400 €</td>
+        <td class="price">262 383 XOF</td>
         <td>1</td>
-        <td>400 €</td>
-        <td>262 383 XOF</td>
+        <td class="price">400 €</td>
+        <td class="price">262 383 XOF</td>
       </tr>
       <tr>
         <td>Formulaires de contact et de demande de devis</td>
-        <td>200 €</td>
-        <td>131 191 XOF</td>
+        <td class="price">200 €</td>
+        <td class="price">131 191 XOF</td>
         <td>1</td>
-        <td>200 €</td>
-        <td>131 191 XOF</td>
+        <td class="price">200 €</td>
+        <td class="price">131 191 XOF</td>
       </tr>
       <tr>
         <td>Galerie de projets interactive</td>
-        <td>150 €</td>
-        <td>98 394 XOF</td>
+        <td class="price">150 €</td>
+        <td class="price">98 394 XOF</td>
         <td>1</td>
-        <td>150 €</td>
-        <td>98 394 XOF</td>
+        <td class="price">150 €</td>
+        <td class="price">98 394 XOF</td>
       </tr>
       <tr>
         <td>Tests, optimisation et déploiement</td>
-        <td>150 €</td>
-        <td>98 394 XOF</td>
+        <td class="price">150 €</td>
+        <td class="price">98 394 XOF</td>
         <td>1</td>
-        <td>150 €</td>
-        <td>98 394 XOF</td>
+        <td class="price">150 €</td>
+        <td class="price">98 394 XOF</td>
       </tr>
       <tr>
         <td>Hébergement sur Vercel (plan Hobby) pour 1 an</td>
-        <td>70 €</td>
-        <td>45 917 XOF</td>
+        <td class="price">0 €</td>
+        <td class="price">0 XOF</td>
         <td>1</td>
-        <td>70 €</td>
-        <td>45 917 XOF</td>
+        <td class="price">0 €</td>
+        <td class="price">0 XOF</td>
       </tr>
       <tr>
         <td>Achat et configuration du nom de domaine pour 1 an</td>
-        <td>30 €</td>
-        <td>19 679 XOF</td>
+        <td class="price">20 €</td>
+        <td class="price">13 119 XOF</td>
         <td>1</td>
-        <td>30 €</td>
-        <td>19 679 XOF</td>
+        <td class="price">20 €</td>
+        <td class="price">13 119 XOF</td>
       </tr>
       <tr class="total">
         <td colspan="4">TOTAL</td>
-        <td>3000 €</td>
-        <td>1 967 871 XOF</td>
+        <td class="price">2620 €</td>
+        <td class="price">1 720 608 XOF</td>
       </tr>
     </table>
 
@@ -175,11 +180,12 @@
       <li>
         Conditions de paiement :
         <ul>
-          <li>33,33% à la signature du devis : 1000 € (655 957 XOF)</li>
+          <li>33,33% à la signature du devis : 873,33 € (573 474 XOF)</li>
           <li>
-            26,67% à mi-parcours (fin de la 3ème semaine) : 800 € (524 766 XOF)
+            26,67% à mi-parcours (fin de la 3ème semaine) : 698,67 € (458 751
+            XOF)
           </li>
-          <li>40% à la mise en ligne du site : 1200 € (787 148 XOF)</li>
+          <li>40% à la mise en ligne du site : 1048 € (688 383 XOF)</li>
         </ul>
       </li>
       <li>
